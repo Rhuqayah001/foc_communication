@@ -279,6 +279,17 @@ nav{
     margin-bottom: 40px;
 }
 
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .about-section{
+        flex-direction: column;
+        text-align: center;
+    }
+    .abt-content{
+        width: 100%;
+    }
+}
+
 /* Impact Section */
 /* Section */
 .impact {
@@ -384,6 +395,7 @@ footer {
 }
 .footer-about{
     width: 300px;
+    text-align: center;
 }
 
 /* Footer Columns */
@@ -439,4 +451,5 @@ footer {
         text-align: center;
         gap: 20px;
   }
+          
 }
