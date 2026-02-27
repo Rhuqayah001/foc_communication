@@ -1,0 +1,80 @@
+h2{
+    margin-bottom: 20px;
+}
+.abt-container {
+    margin: 50px auto;
+    max-width: 1100px;
+    padding: 0 20px;
+
+}
+.abt-container h1 {
+    font-size: var(--h1-size);
+    color: var(--pry-color);
+    margin-bottom: 20px;
+}
+.abt-container p {
+    font-size: var(--p-size);
+    color: var(--dark-gray);
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Service Cards */
+.service-card {
+    background: var(--white);
+    padding: 25px 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.service-card h3 {
+    color: var(--accent-color);
+    margin-bottom: 10px;
+}
+
+.service-card ul {
+    list-style: disc inside;
+    padding-left: 0;
+}
+.service-card ul li {
+    margin-bottom: 8px;
+    color: var(--dark-gray);
+}
+
+/* Partnerships */
+.partnerships ul {
+    list-style: none;
+    padding: 0;
+}
+
+.partnerships ul li {
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.partnerships ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+}
+
+/* Gallery Grid */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+}
