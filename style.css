@@ -209,6 +209,9 @@ nav{
     p{
         font-size: var(--p-mobile);
     }
+    .logo{
+    font-size: 20px;
+    }
 }
 
 /* hero section */
